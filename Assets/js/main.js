@@ -5,11 +5,7 @@ const weatherDetails = document.querySelector(".weather-details");
 const error404 = document.querySelector(".not-found");
 const cityHide = document.querySelector(".city-hide");
 
-// document.getElementById("bx-search").addEventListener("keyup", function(event) {
-//   if (event.key === "Enter") {
-//       document.getElementById("bx-search").click();
-//   }
-// });
+
 
 search.addEventListener("click", () => {
   const APIKey = "878e1c47ab5b5a59fba498e487a75450";
